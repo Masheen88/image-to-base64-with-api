@@ -165,4 +165,3 @@ getComments().then((data) => {
 
   console.log("finalImage", finalImage);
 });
-
