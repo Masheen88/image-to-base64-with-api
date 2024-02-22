@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Color Picker</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <div>
+    <input type="file" id="image-input" />
+    <canvas id="image-canvas"></canvas>
+    <p>Selected color: <span id="selected-color">None</span></p>
+
+    <textarea id="base64Code"></textarea>
+    <br />
+    <button onclick="postToAPI()">Post the base64 data to api</button>
+<br />
+    test
+    <img id="commentImage" />
+test
+
+    <script src="script.js"></script>
+  </body>
+</html>
